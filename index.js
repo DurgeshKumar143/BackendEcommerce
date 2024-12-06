@@ -48,7 +48,7 @@ connectDB().then(()=>{
     server.listen(PORT,()=>{
         console.log("connnect to DB")
         console.log("Server is running "+PORT)
-        console.log("Server is Running No problems in then running server");
+        
     })
 }).catch((err)=>{
     
